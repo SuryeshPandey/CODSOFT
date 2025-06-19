@@ -1,0 +1,23 @@
+# Ignore Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore py2app and build folders
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Ignore data files or logs (optional)
+*.log
+*.db
+*.sqlite3
